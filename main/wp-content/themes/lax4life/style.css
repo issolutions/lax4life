@@ -1,0 +1,353 @@
+/*
+Theme Name: lax4life
+Description: Child theme for the twentytwelve theme 
+Author: Michael Breland
+Template: twentytwelve
+*/
+@import url("../twentytwelve/style.css");
+
+/* BODY and WRAPPER*/
+* {
+margin: 0;
+}
+html {
+margin-top: 0px !important;
+}
+html, body {
+height: 100%;
+}
+body .site {
+padding: 0 40px;
+padding: 0 2.857142857rem;
+margin-top: 0px;
+margin-top: 0rem;
+margin-bottom: 0px;
+margin-bottom: 0rem;
+box-shadow: none;
+font-size: 100%;
+}
+p {
+font-size: 100%;
+}
+.site {
+	background-color: transparent !important;
+	}
+	
+#wrapper {
+	background: url(images/main-bg.jpg) no-repeat top center scroll;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -90px;
+	}
+.push {
+	height: 90px; /* .push must be the same height as .footer */
+}
+	
+/* HEADER */
+
+/* LOGO */
+#hdr-logo-link {
+position: relative;
+display: block;
+width: 976px;
+height: 150px;
+}
+
+#hdr-logo-link a.logo-link {
+display: block;
+position: absolute;
+top: 15px;
+left: -29px;
+width: 976px;
+height: 150px;
+text-decoration: none;
+background: url("images/logo.png") no-repeat 0 0 transparent;
+}
+
+/* NAVIGATION */
+
+/* PRIMARY NAVIGATION */
+.primary-nav {
+margin-top: 24px;
+margin-top: 1.714285714rem;
+background: url(images/primary-nav-bg.jpg) top left repeat-x;
+}
+.primary-nav li {
+margin:0px;
+float:left;
+}
+.primary-nav li a {
+font-weight:bold;
+color: #FFFFFF;
+padding: 0 20px;
+}
+.primary-nav li a:hover {
+font-weight:bold;
+color: #FFFFFF;
+background: url(images/primary-nav-active.jpg) top left repeat-x;
+padding: 0 20px;
+}
+.primary-nav ul.nav-menu, .main-navigation div.nav-menu > ul {
+border-bottom: none;
+border-top: none;
+text-align: left;
+/*background: url(images/footer-bg.png) top left repeat-x rgb(3, 144, 255);*/
+}
+/*Link remains active when on the page*/
+.primary-nav .current-menu-item > a, .primary-nav .current-menu-ancestor > a, .primary-nav .current_page_item > a, .primary-nav .current_page_ancestor > a {
+color: #FFFFFF;
+background: url(images/primary-nav-active.jpg) top left repeat-x;
+}
+
+/* SECONDARY NAVIGATION */
+.secondary-nav {
+margin-top: 0px;
+margin-bottom: 0px;
+background: url(images/secondary-nav-bg.png) top left repeat-x;
+}
+.secondary-nav li {
+margin:0px;
+}
+.secondary-nav li a {
+font-weight:bold;
+color: #005b7f;
+padding: 0 20px;
+}
+.secondary-nav li a:hover {
+font-weight:bold;
+color: #FFFFFF;
+padding: 0 20px;
+}
+.secondary-nav ul.nav-menu, .main-navigation div.nav-menu > ul{
+text-align: center;
+}
+.secondary-nav .current-menu-item > a, .secondary-nav .current-menu-ancestor > a, .secondary-nav .current_page_item > a, .secondary-nav .current_page_ancestor > a {
+color: #FFFFFF;
+}
+
+/* CONTENT */
+
+.wrapper {
+background: transparent url("images/content-bg.png") repeat;
+}
+.site-content{
+width: 70.104166667%;
+}
+.site-content article {
+border-bottom: 0px double #ededed;
+margin-bottom: 0px;
+margin-bottom: 0rem;
+padding-bottom: 24px;
+padding-bottom: 1.714285714rem;
+
+}
+.entry-header {
+margin-bottom: none;
+margin-bottom: 0rem;
+background: #FFFFFF;
+border-bottom: 1px solid #CCCCCC;
+border-top: 1px solid #CCCCCC;
+}
+.right-side {
+border-right: 1px solid #CCCCCC;
+display: inline-block;
+width: 100%;
+}
+.entry-header .entry-title {
+font-family: 'SF Sports Night NS Upright', Arial, sans-serif;
+font-size:28px;
+margin: 0 15px 15px 15px;
+padding-top:15px;
+color:#005b7f;
+letter-spacing: 1px;
+}
+.entry-header img.wp-post-image {
+margin-bottom: 15px;
+margin-bottom: 1.0rem;
+}
+.entry-content{
+margin: 0 15px 15px 15px;
+font-size: 13px;
+}
+.entry-content h3 a{
+color:#464646;
+letter-spacing: 1px;
+}
+.entry-content h3 img{
+width:50px;
+height:50px;
+}
+.link-bullit{
+background: transparent url("images/link-bullit.png") no-repeat;
+height: 18px;
+width: 18px;
+}
+.entry-content h1{
+margin: 24px 0px 0px 0px;
+margin: 1.714285714rem 0rem 0rem 0rem;
+line-height: 1.714285714rem;
+font-family: 'SF Sports Night NS Upright', Arial, sans-serif;
+font-size:28px;
+color:#005b7f;
+letter-spacing: 1px;
+}
+.entry-content h2{
+margin: 24px 0px 0px 0px;
+margin: 1.714285714rem 0rem 0rem 0rem;
+line-height: 1.714285714rem;
+font-family: 'SF Sports Night NS Upright', Arial, sans-serif;
+font-size:24px;
+color:#464646;
+letter-spacing: 1px;
+}
+.entry-content h3{
+margin: 24px 0px 0px 0px;
+margin: 1.714285714rem 0rem 0rem 0rem;
+line-height: 1.714285714rem;
+font-family: 'SF Sports Night NS Upright', Arial, sans-serif;
+font-size:20px;
+color:#464646;
+letter-spacing: 1px;
+}
+ .entry-content h4{
+margin: 24px 0px 0px 0px;
+margin: 1.714285714rem 0rem 0rem 0rem;
+line-height: 1.714285714rem;
+font-family: 'SF Sports Night NS Upright', Arial, sans-serif;
+font-size:18px;
+color:#464646;
+letter-spacing: 1px;
+}
+.entry-content h5{
+margin: 24px 0px 0px 0px;
+margin: 1.714285714rem 0rem 0rem 0rem;
+line-height: 1.714285714rem;
+font-family: 'SF Sports Night NS Upright', Arial, sans-serif;
+font-size:16px;
+color:#464646;
+letter-spacing: 1px;
+}
+.entry-content h6{
+margin: 24px 0px 0px 0px;
+margin: 1.714285714rem 0rem 0rem 0rem;
+line-height: 1.714285714rem;
+font-family: 'SF Sports Night NS Upright', Arial, sans-serif;
+font-size:14px;
+color:#464646;
+letter-spacing: 1px;
+}
+.entry-content th{
+font-size: 11px;
+font-size: 0.785714286rem;
+line-height: 2.181818182;
+font-weight: bold;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+}
+.entry-content td{
+border-top: 1px solid #ededed;
+padding: 6px 10px 6px 0;
+text-align: center;
+}
+
+/* SIDE BAR */
+.widget {
+background: transparent url("images/content-bg.png") repeat;
+padding: 15px;
+
+}
+
+/* FOOTER */
+
+footer.entry-meta {
+margin-left:15px;
+}
+footer[role="contentinfo"] {
+background: url(images/footer-bg.png) repeat-x scroll 0 0 transparent;
+max-width: none;
+max-width: none;
+margin-top: 0px;
+margin-top: 0rem;
+margin-left: 0;
+margin-right: 0;
+padding: 10px 0 0 0;
+padding: 0.7rem 0 0 0;
+height: 90px;
+}
+
+
+footer[role="contentinfo"] a {
+color: #004865 ;
+font-weight: bold ;
+font-size: 12px;
+text-decoration: none ;
+}
+footer[role="contentinfo"] a:hover {
+color: #452f08;;
+}
+.site-info {
+max-width: 960px;
+max-width: 68.571428571rem;
+margin: 0 auto;
+color:#004865;
+padding: 0px 0px 0;
+height: 88px;
+position: relative;
+}
+.site-info ul {
+margin: 0;
+padding: 0px 0px 0px 20px;
+clear: right;
+display: inline;
+float: left;
+}
+.site-info ul li {
+list-style: none;
+clear: none;
+padding: 0;
+float: left;
+}
+.footer-links {
+clear: right;
+display: inline;
+float: left;
+width: 640px;
+}
+.clublogo {
+background: url("images/footerlogo.png") top left no-repeat;
+display: inline;
+float: left;
+height: 90px;
+width: 88px;
+}
+.link-list span {
+margin: 0 8px 0 8px;
+color: #666;
+}
+.copyright {
+color: #024;
+float: left;
+padding: 6px 0 0 20px;
+}
+
+/* COLUMNS */
+
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+position: relative;
+margin-right: 4%;
+float: left;
+min-height: 1px;
+margin-bottom: 0;
+}
+.last {
+margin-right: 0!important;
+clear: right;
+}
+.one_half {
+width: 49.94%;
+}
+.one_third {
+width: 30.66%;
+}
